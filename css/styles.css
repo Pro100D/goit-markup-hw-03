@@ -13,8 +13,9 @@ body {
 
 	list-style: none;
 }
-img{ display: block;
-width: 100%;
+img {
+	display: block;
+	width: 100%;
 }
 /* Logo */
 .logo {
@@ -50,8 +51,7 @@ width: 100%;
 .page-nav {
 	display: flex;
 	align-items: center;
-	border-bottom: 1px solid #ECECEC;
-	
+	border-bottom: 1px solid #ececec;
 }
 .main-nav {
 	display: flex;
@@ -114,9 +114,6 @@ width: 100%;
 	text-align: center;
 	padding-top: 180px;
 	padding-bottom: 220px;
-
-	
-	
 }
 
 .hero-title {
@@ -131,7 +128,6 @@ width: 100%;
 
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
-
 }
 
 /* container */
@@ -194,7 +190,6 @@ width: 100%;
 }
 .button.secondary {
 	padding: 6px 22px;
-	
 }
 
 /* загаловки и текст секций */
@@ -221,9 +216,8 @@ width: 100%;
 	margin-bottom: 0;
 }
 
-.feature .section-title{
+.feature .section-title {
 	display: none;
-	
 }
 .feature-list {
 	display: flex;
@@ -257,17 +251,15 @@ width: 100%;
 	margin-bottom: 0;
 }
 /* work */
-.work{
+.work {
 	padding-bottom: 94px;
 }
-.work .section-title{
+.work .section-title {
 	margin-bottom: 50px;
-	
 }
 .work-list {
 	display: flex;
 	justify-content: center;
-	
 }
 .work-list .item:not(:last-child) {
 	margin-right: 30px;
@@ -280,7 +272,6 @@ width: 100%;
 	text-align: center;
 	padding-top: 94px;
 	padding-bottom: 90px;
-
 
 	/* background-color:  purple; */
 }
@@ -327,13 +318,12 @@ width: 100%;
 }
 
 /* portfolio */
-.portfolio{
+.portfolio {
 	padding-top: 94px;
-padding-bottom: 94px;
+	padding-bottom: 94px;
 }
 
-
-.portfolio .section-title{
+.portfolio .section-title {
 	display: none;
 }
 .portfolio-title {
@@ -352,7 +342,7 @@ padding-bottom: 94px;
 	display: flex;
 	flex-wrap: wrap;
 }
-.portfolio-block{
+.portfolio-block {
 	border: 1px solid #eeeeee;
 }
 .portfolio-list .item {
