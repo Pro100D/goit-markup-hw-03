@@ -194,6 +194,10 @@ img {
 	margin-bottom: 50px;
 	justify-content: center;
 }
+.active{
+	color: #ffffff;
+	background-color: var(--accent-color);
+}
 .button-list .item:not(:last-child) {
 	margin-right: 8px;
 }
